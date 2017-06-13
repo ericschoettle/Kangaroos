@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="jumbotron">
+    <h1>{{title}}</h1>
+    <router-outlet></router-outlet>
+    
+    <ul *ngIf="roo">
+      <li>Your name: {{roo.name}}</li>
+      <li>Your health: {{roo.health}}</li>
+      <li>Your money: {{roo.money}}</li>
+      <li>Your cuteness: {{roo.cuteness}}</li>
+      <li>Your strength: {{roo.strength}}</li>
+    </ul>
+  </div>
+</div>

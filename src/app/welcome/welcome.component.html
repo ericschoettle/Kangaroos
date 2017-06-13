@@ -1,0 +1,10 @@
+<h2>
+  Welcome to your Outback Adventure!
+</h2>
+<h4>
+  Choose your 'roo
+</h4>
+
+<div *ngFor="let roo of roos">
+  <button (click)="chooseRoo(roo)">{{roo.name}}!!!!</button><br>
+</div>
